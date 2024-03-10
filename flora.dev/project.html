@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌺Florah's Project🌺</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: aquamarine;
+      }
+      h2 {
+        text-align: center;
+        color: rgb(53, 119, 97);
+      }
+      img {
+        width: 550px;
+        display: block;
+        margin: 0 auto;
+      }
+      body {
+        background: linear-gradient(#e2cfbb, white);
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        padding: 20px 30px;
+        transition: all 200ms ease-in-out;
+        font-size: medium;
+        box-shadow: 2px 5px 5px;
+        border: none;
+        border-radius: 6px;
+        color: aquamarine;
+        background: black;
+        font-weight: bold;
+      }
+      button:hover {
+        background: white;
+        cursor: pointer;
+      }
+      .contact {
+        color: blueviolet;
+      }
+      .finish {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 60px;
+      }
+
+      p {
+        line-height: 1.4;
+        font-style: oblique;
+        font-weight: bold;
+      }
+      ul {
+        font-style: oblique;
+        font-weight: bold;
+      }
+      .best {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="finish">
+      <h1>A guide to dressing for your body type!</h1>
+      <h2><em>what is your body type?</em></h2>
+      <hr />
+      <img
+        src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2147493999/images/BsQKCXpSVUNgXJg6bMcA_Screen_Shot_2022-07-29_at_4.11.47_PM.png"
+      />
+      <p>
+        If life's a parade, you'd better rock that runway! from character to
+        body structure, everybody's born with a special trait that make them
+        unique. the more eclectic the mix, the better the pegeant. and while
+        people come in different shapes and forms, so do clothes. being
+        comfortable in your own skin is essential to prance around with
+        confidence an poise. to achieve that, you'll need to find outfits that
+        highlight your body's best features. that can be tricky when you don't
+        understand your body type.
+      </p>
+      <p>
+        <br />
+        <u>
+          <strong>The five most common body types</strong>
+        </u>
+      </p>
+      <ul>
+        <li>Apple (aka oval or round)</li>
+        <li>Pear (aka triangle)</li>
+        <li>Athletic(aka inverted triangle)</li>
+        <li>Rectangle (aka straight or banana)</li>
+        <li>Hourglass</li>
+      </ul>
+      <a
+        href="https://allthedresses.com.au/blog/a-guide-to-dressing-for-your-body-type"
+      >
+        Learn more on google chrome</a
+      >
+      <hr />
+
+      <button>Click here to get a body type quiz</button>
+      <br />
+      <center>
+        <span class="contact">Email:</span>"florencemeso13@gmail.com"
+      </center>
+      <br />
+      <p class="best">Created by Florence Meso✌</p>
+    </div>
+    <script>
+      function bodyShape() {
+        let name = prompt("what is your name?");
+        let email = prompt("what is your Email address?");
+        let gender = prompt("state your gender");
+        if (gender === "female") {
+          alert(
+            "Thank you" +
+              name +
+              "! we'll be in touch by email, meanWhile keep slaying 💃💃"
+          );
+        } else {
+          alert("Sorry 😔we only cater for women");
+        }
+      }
+
+      let typeButton = document.querySelector("button");
+      typeButton.addEventListener("click", bodyShape);
+    </script>
+  </body>
+</html>
